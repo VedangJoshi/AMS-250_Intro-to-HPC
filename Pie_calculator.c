@@ -20,11 +20,19 @@ int main (int argc, char ** argv) {
 		#pragma omp for schedule(dynamic, N/1000) nowait
 		for(n = 0; n < N; n++) {
 			sum += func(a + n*h);
-			//printf("\n%d", omp_get_thread_num());
 		}
 	}
 	
-	printf("π = %f", h * sum * 4);
+	printf("\nπ = %f\n", h * sum * 4);
 	
 	return EXIT_SUCCESS;
 }
+
+/*
+
+Vedangs-MacBook-Pro:AMS-250_openMP vedangjoshi$ icc Pie_calculator.c -fopenmp
+Vedangs-MacBook-Pro:AMS-250_openMP vedangjoshi$ ./a.out 
+
+π = 3.141603
+
+*/
