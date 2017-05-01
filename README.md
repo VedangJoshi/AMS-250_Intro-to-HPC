@@ -2,5 +2,7 @@
 
 Codes for AMS-250 (UCSC)
 
-Assignment-2 OpenMP \n
+<p> 
+Assignment-2 OpenMP <br> 
 Assignment-3 MPI
+</p>
