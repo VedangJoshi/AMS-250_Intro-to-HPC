@@ -1,7 +1,4 @@
-# AMS-250_openMP
-
-Codes for AMS-250 (UCSC)
-
+# AMS-250 Introduction to High Performance Computing (UC Santa Cruz)
 <p> 
 Assignment-1 OpenMP <br> 
 Assignment-2 OpenMPI <br>
