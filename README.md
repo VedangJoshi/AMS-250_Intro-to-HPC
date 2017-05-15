@@ -1,4 +1,4 @@
-### AMS-250 Introduction to HPC (UC Santa Cruz)
+### AMS-250 Introduction to HPC
 <p> 
 Assignment-1 OpenMP <br> 
 Assignment-2 OpenMPI <br>
