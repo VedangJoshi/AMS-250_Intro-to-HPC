@@ -4,7 +4,7 @@
 int main(int argc, char** argv) {
 
 int rank, size;
-int baton = 12345;
+char* msg = argv[1]; 
 int recv = 0;
 int tag = 1;
 MPI_Status Stat;
